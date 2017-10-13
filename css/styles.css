@@ -1,0 +1,124 @@
+/* Global Styles
+-------------------*/
+
+/* border box fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #EDF2F4;
+    margin: 0;
+}
+h1, h2 {
+    font-family: 'Times';
+    font-weight: 400;
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+    clear: both;
+}
+p {
+    text-align: justify
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+.column-wide {
+    width: 65%;
+    float: right;
+/*    border: 1px solid black;*/
+}
+.column-narrow {
+    width: 35%;
+    float: left;
+/*    border: 1px solid black;*/
+}
+a {
+    color: #EF233C
+}
+/* Removes the underlines when hovering the mouse */
+a:hover {
+    text-decoration: none
+}
+/* Header and Footer
+-----------------------*/
+
+/* Header */
+header,
+footer {
+    background: #2B2D42;
+    color: #8D99AE;
+}
+
+header h1,
+header h2 {
+    color: #EDF2F4;
+}
+header h1 {
+    margin: 0;
+}
+header h2 {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+header .column-wide {
+    float: left;   
+}
+
+.profile-img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    float: right;
+}
+
+/* Footer */
+footer, footer p {
+    text-align: center;
+}
+
+.contact-info a{
+    padding: 10px;
+    display: inline-block;
+}
+
+
+/* Main
+---------*/
+
+/* Technical Skills & Tools */
+
+.skill-elements {
+    -moz-column-count: 3;
+    -moz-column-gap: 2.5em;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 2.5em;
+     column-count: 3;
+     column-gap: 2.5em;
+}
+
+/* Work Experience */
+/*
+.bir-desc {
+    padding-top: 70px;
+}
+.dfki-desc {
+    padding-top: 45px;
+}
+*/
+
+/* Education */
+
+/* Language Skills */
