@@ -2,90 +2,108 @@
 -------------------*/
 
 /* border box fix */
+
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    background: #EDF2F4;
-    margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #EDF2F4;
+  margin: 0;
 }
+
 h1, h2 {
-    font-family: 'Times';
-    font-weight: 400;
+  font-family: 'Times';
+  font-weight: 400;
 }
+
 h1 {
-    font-size: 80px;
+  font-size: 80px;
 }
+
 h2 {
-    font-size: 40px;
-    margin-top: 0;
+  font-size: 40px;
+  margin-top: 0;
 }
+
 p {
-    text-align: justify
+  text-align: justify
 }
+
 .content-wrap {
-    max-width: 950px;
-    margin: 0 auto;
-    padding: 20px;
-    overflow: hidden;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
 }
+
 .column-wide {
-    width: 65%;
-    float: right;
-/*    border: 1px solid black;*/
+  width: 65%;
+  float: right;
+  /*    border: 1px solid black;*/
 }
+
 .column-narrow {
-    width: 35%;
-    float: left;
-/*    border: 1px solid black;*/
+  width: 35%;
+  float: left;
+  /*    border: 1px solid black;*/
 }
+
 a {
-    color: #EF233C
+  color: #EF233C
 }
+
 /* Removes underline when hovering the mouse */
+
 a:hover {
-    text-decoration: none
+  text-decoration: none
 }
+
 /* Header and Footer
 -----------------------*/
 
 /* Header */
-header,
-footer {
-    background: #2B2D42;
-    color: #8D99AE;
+
+header, footer {
+  background: #2B2D42;
+  color: #8D99AE;
 }
 
-header h1,
-header h2 {
-    color: #EDF2F4;
-    margin: 0;
+header h1, header h2 {
+  color: #EDF2F4;
+  margin: 0;
 }
+
 header h2 {
-    font-size: 20px;
-    margin-bottom: 50px;
+  font-size: 20px;
+  margin-bottom: 50px;
 }
+
 header .column-wide {
-    float: left;   
+  float: left;
 }
+
 .profile-img {
-    width: 250px;
-    height: auto;
-    border-radius: 50%;
-    float: right;
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+  float: right;
 }
+
 /* Footer */
+
 footer, footer p {
-    text-align: center;
+  text-align: center;
 }
-.contact-info a{
-    padding: 10px;
-    display: inline-block;
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
 }
 
 /* Main
@@ -94,14 +112,16 @@ footer, footer p {
 /* Technical Skills & Tools */
 
 .skill-elements {
-    -moz-column-count: 3;
-    -moz-column-gap: 2.5em;
-    -webkit-column-count: 3;
-    -webkit-column-gap: 2.5em;
-     column-count: 3;
-     column-gap: 2.5em;
+  -moz-column-count: 3;
+  -moz-column-gap: 2.5em;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 2.5em;
+  column-count: 3;
+  column-gap: 2.5em;
 }
+
 /* Work Experience */
+
 .dfki-desc {
-    margin-top: 25px;
+  margin-top: 25px;
 }
