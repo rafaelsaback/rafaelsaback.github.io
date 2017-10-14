@@ -24,7 +24,6 @@ h1 {
 h2 {
     font-size: 40px;
     margin-top: 0;
-    clear: both;
 }
 p {
     text-align: justify
@@ -48,7 +47,7 @@ p {
 a {
     color: #EF233C
 }
-/* Removes the underlines when hovering the mouse */
+/* Removes underline when hovering the mouse */
 a:hover {
     text-decoration: none
 }
@@ -65,8 +64,6 @@ footer {
 header h1,
 header h2 {
     color: #EDF2F4;
-}
-header h1 {
     margin: 0;
 }
 header h2 {
@@ -76,24 +73,20 @@ header h2 {
 header .column-wide {
     float: left;   
 }
-
 .profile-img {
     width: 250px;
     height: auto;
     border-radius: 50%;
     float: right;
 }
-
 /* Footer */
 footer, footer p {
     text-align: center;
 }
-
 .contact-info a{
     padding: 10px;
     display: inline-block;
 }
-
 
 /* Main
 ---------*/
@@ -108,7 +101,6 @@ footer, footer p {
      column-count: 3;
      column-gap: 2.5em;
 }
-
 /* Work Experience */
 .dfki-desc {
     margin-top: 25px;
