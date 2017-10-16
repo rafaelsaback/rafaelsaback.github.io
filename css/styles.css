@@ -32,7 +32,7 @@ h2 {
 }
 
 p {
-  text-align: justify
+  text-align: justify;
 }
 
 .content-wrap {
@@ -55,13 +55,13 @@ p {
 }
 
 a {
-  color: #EF233C
+  color: #EF233C;
 }
 
 /* Removes underline when hovering the mouse */
 
 a:hover {
-  text-decoration: none
+  text-decoration: none;
 }
 
 /* Header and Footer
