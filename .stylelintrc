@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "color-hex-case": upper,
+    "indentation": 2,
+    "declaration-block-trailing-semicolon": "always",
+    "color-no-invalid-hex": true,
+    "font-family-no-duplicate-names": true,
+    "property-no-unknown": true,
+    "declaration-block-no-duplicate-properties": true,
+    "declaration-block-no-shorthand-property-overrides": true,
+  }
+}
