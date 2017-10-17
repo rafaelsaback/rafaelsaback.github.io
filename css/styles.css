@@ -29,6 +29,7 @@ h1 {
 h2 {
   font-size: 40px;
   margin-top: 0;
+  /*border: 1px solid black;*/
 }
 
 p {
@@ -40,18 +41,19 @@ p {
   margin: 0 auto;
   padding: 10px;
   overflow: hidden;
+  /*border: 1px solid black;*/
 }
 
 .column-wide {
   width: 65%;
   float: right;
-  /*    border: 1px solid black;*/
+  /*border: 1px solid black;*/
 }
 
 .column-narrow {
   width: 35%;
   float: left;
-  /*    border: 1px solid black;*/
+  /*border: 1px solid black;*/
 }
 
 a {
