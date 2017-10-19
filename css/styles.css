@@ -94,6 +94,11 @@ header {
   padding-top: 50px;
   position: relative;
 }
+
+header, main, footer {
+  padding-bottom: 60px;
+}
+
 header, footer {
   background: #2B2D42;
   color: #8D99AE;
@@ -110,7 +115,6 @@ header h2 {
 }
 header .content-wrap {
   padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 header .column-wide {
