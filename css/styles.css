@@ -39,7 +39,7 @@ p {
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 60px 50px 0px;
   overflow: hidden;
   /*border: 1px solid black;*/
 }
@@ -71,6 +71,9 @@ a:hover {
 
 /* Header */
 
+header {
+  padding-top: 50px;
+}
 header, footer {
   background: #2B2D42;
   color: #8D99AE;
@@ -84,6 +87,10 @@ header h1, header h2 {
 header h2 {
   font-size: 20px;
   margin-bottom: 50px;
+}
+header .content-wrap {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 header .column-wide {
@@ -106,6 +113,24 @@ footer, footer p {
 .contact-info a {
   padding: 10px;
   display: inline-block;
+}
+
+/* Navigation
+-----------------------*/
+nav {
+  text-align: center;
+  background: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 /* Main
