@@ -32,8 +32,17 @@ h2 {
   /*border: 1px solid black;*/
 }
 
+h3 {
+  margin: 0;
+}
+
 p {
   text-align: justify;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
 }
 
 .content-wrap {
@@ -150,5 +159,5 @@ nav a {
 /* Work Experience */
 
 .dfki-desc, .bir-desc {
-  margin-top: 25px;
+  margin-top: 50px;
 }
