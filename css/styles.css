@@ -126,6 +126,7 @@ header .column-wide {
   height: auto;
   border-radius: 50%;
   float: right;
+  margin-top: 20px;
 }
 
 /* Footer */
