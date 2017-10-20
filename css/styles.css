@@ -160,6 +160,9 @@ nav a {
 /* Main
 ---------*/
 
+/* Apply margin-top: 20px to insert a space between the education itens*/
+section#education p~h3 {
+  margin-top: 20px;
 }
 
 /* Media Queries
