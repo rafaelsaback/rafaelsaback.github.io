@@ -94,7 +94,7 @@ header {
   position: relative;
 }
 
-header, main, footer {
+header, main {
   padding-bottom: 60px;
 }
 
@@ -131,6 +131,9 @@ header .column-wide {
 
 /* Footer */
 
+footer {
+  padding-bottom: 20px;
+}
 footer, footer p {
   text-align: center;
 }
