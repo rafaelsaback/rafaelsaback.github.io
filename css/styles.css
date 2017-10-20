@@ -52,18 +52,6 @@ ul {
   /*border: 1px solid black;*/
 }
 
-.column-wide {
-  width: 65%;
-  float: right;
-  /*border: 1px solid black;*/
-}
-
-.column-narrow {
-  width: 35%;
-  float: left;
-  /*border: 1px solid black;*/
-}
-
 a {
   color: #EF233C;
 }
@@ -172,19 +160,100 @@ nav a {
 /* Main
 ---------*/
 
-/* Technical Skills & Tools */
-
-.skill-elements {
-  -moz-column-count: 3;
-  -moz-column-gap: 2.5em;
-  -webkit-column-count: 3;
-  -webkit-column-gap: 2.5em;
-  column-count: 3;
-  column-gap: 2.5em;
 }
 
-/* Work Experience */
+/* Media Queries
+------------------*/
 
-.dfki-desc, .bir-desc {
-  margin-top: 50px;
+@media (min-width: 900px) {
+  .column-wide {
+    width: 65%;
+    float: left;
+    /*border: 1px solid black;*/
+  }
+
+  .column-narrow {
+    width: 35%;
+    float: left;
+    /*border: 1px solid black;*/
+  }
+
+  /* Technical Skills & Tools */
+
+  .skill-elements {
+    -moz-column-count: 3;
+    -moz-column-gap: 3em;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 3em;
+    column-count: 3;
+    column-gap: 3em;
+  }
+  /* Work Experience */
+
+  .dfki-desc, .bir-desc {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 899px) {
+  header {
+    text-align: center;
+  }
+  .column-wide {
+    margin-top: 20px;
+  }
+  .column-narrow {
+    margin-top: 40px;
+  }
+
+  /* Technical Skills & Tools */
+
+  .skill-elements {
+    -moz-column-count: 2;
+    -moz-column-gap: 3em;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 3em;
+    column-count: 2;
+    column-gap: 3em;
+  }
+
+  div.contact-info span {
+    display: block;
+  }
+}
+
+@media (max-width: 551px) {
+  header {
+    text-align: center;
+  }
+  .column-wide {
+    margin-top: 20px;
+  }
+  .column-narrow {
+    margin-top: 40px;
+  }
+
+  .profile-img {
+    width: 150px;
+  }
+
+  /* Technical Skills & Tools */
+
+  .skill-elements {
+    -moz-column-count: 2;
+    -moz-column-gap: 3em;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 3em;
+    column-count: 2;
+    column-gap: 3em;
+  }
+
+  div.contact-info span {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+  header, header div.content-wrap {
+    padding-top: 0px;
+  }
 }
