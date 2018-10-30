@@ -161,9 +161,9 @@ nav a {
 ---------*/
 
 /* Apply margin-top: 20px to insert a space between the education itens*/
-#education p~h3,
-#sample-projects ul~h3,
-#sample-projects ul~p  {
+#education p+h3,
+#sample-projects ul+h3,
+#sample-projects ul+p  {
   margin-top: 20px;
 }
 
