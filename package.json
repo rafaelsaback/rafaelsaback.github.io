@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./styles/style.scss:dist/style.css",
-    "live-server": "live-server --port=3000",
-    "start": "npm-run-all -p live-server"
+    "start": "live-server --port=3000 --open=./dist"
   },
   "repository": {
     "type": "git",
