@@ -52,8 +52,8 @@ ul {
   /*border: 1px solid black;*/
 }
 
-a {
-  color: #EF233C;
+a, a:visited {
+  color: #0000EE;
 }
 
 /* Removes underline when hovering the mouse */
