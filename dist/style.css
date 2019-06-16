@@ -53,7 +53,7 @@ ul {
 }
 
 a, a:visited {
-  color: #0000EE;
+  color: red;
 }
 
 /* Removes underline when hovering the mouse */
@@ -195,7 +195,7 @@ nav a {
   }
   /* Work Experience */
 
-  .dfki-desc, .bir-desc {
+  .with-margin-top {
     margin-top: 50px;
   }
 }
